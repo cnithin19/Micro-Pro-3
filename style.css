@@ -50,7 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #241a4b;
+    background-color:rgba(59, 70, 100, 1);;
     font-family: Segoe UI;
 }
 
@@ -76,7 +76,8 @@ body {
 
     height: 6.8rem;
     width: 30.7rem;
-    background-color: rgb(17, 17, 50);
+    background-color: rgba(24, 31, 50, 1);
+    /* background-color: rgb(17, 17, 50); */
    padding: 10px;
     font-weight: 550;
     font-size: 3rem;
@@ -94,7 +95,7 @@ body {
     gap: 10px;
     height: 37.5rem;
     width: 30.7rem;
-    background-color: rgb(17, 17, 50);
+    background-color:rgba(37, 45, 68, 1);;
     justify-content: space-around;
     align-items: center;
     padding-left: 12px;
