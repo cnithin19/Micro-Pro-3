@@ -51,6 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color:rgba(59, 70, 100, 1);;
+    flex-direction: column;
     font-family: Segoe UI;
 }
 
@@ -74,8 +75,8 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px; */
 
-    height: 6.8rem;
-    width: 30.7rem;
+    height: 4.8rem;
+    width: 25.7rem;
     background-color: rgba(24, 31, 50, 1);
     /* background-color: rgb(17, 17, 50); */
    padding: 10px;
@@ -93,19 +94,28 @@ body {
     border-radius: 12px;
     margin-top: 40px;
     gap: 10px;
-    height: 37.5rem;
-    width: 30.7rem;
+    height: 27.5rem;
+    width: 25.7rem;
     background-color:rgba(37, 45, 68, 1);;
     justify-content: space-around;
     align-items: center;
     padding-left: 12px;
     /* display: flex; */
+    /* padding: 50px; */
+}
+.calculator-container{
+    /* justify-self: left; */
+    align-self: flex-start;
+    padding-left: 38%;
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-bottom: 5px;
 }
 
-
 button {
-    height: 3.75rem;
-    width: 6.25rem;
+    height: 2.75rem;
+    width: 5.25rem;
     padding: 15px;
     font-size: 18px;
     border: none;
@@ -137,9 +147,11 @@ button:active {
 }
 .equal{
     background-color: red;
+    color: white;
 }
 .light{
-    background-color: #4e3f88;
+    background-color: #917ee0;
+    color: white;
 }
 
 
